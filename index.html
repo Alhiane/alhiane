@@ -958,7 +958,7 @@
 
 			<div class="row no-gutters block-9">
 				<div class="col-md-6 order-md-last d-flex">
-					<form action="#" class="bg-light p-4 p-md-5 contact-form">
+					<form action="#" class="bg-light p-4 p-md-5 contact-form" data-netlify="true" id="myForm">
 						<div class="form-group">
 							<input type="text" class="form-control" placeholder="Your Name">
 						</div>
@@ -1090,6 +1090,22 @@
 	  gtag('js', new Date());
 
 	  gtag('config', 'G-7CRPBWYR87');
+	</script>
+	
+	<script>
+		document.querySelector("form").addEventListener("submit", handleSubmit);
+
+		const handleSubmit = (e) => {
+		  e.preventDefault()
+		  let myForm = document.getElementById('myForm');
+		  let formData = new FormData(myForm)
+		  fetch('/', {
+		    method: 'POST',
+		    headers: { "Content-Type": "application/x-www-form-urlencoded" },
+		    body: new URLSearchParams(formData).toString()
+		  }).then(() => console.log('Form successfully submitted')).catch((error) =>
+		    alert(error))
+		}
 	</script>
 
 </body>
