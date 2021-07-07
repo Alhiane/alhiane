@@ -8185,7 +8185,7 @@ h1, h2, h3, h4, h5,
     margin: 0 auto;
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
-    color: #000000;
+    color: #fff;
     padding-top: .7rem;
     padding-bottom: .7rem; }
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
@@ -8220,7 +8220,7 @@ h1, h2, h3, h4, h5,
         height: 2px;
         bottom: 0;
         left: 0;
-        background: #3e64ff;
+        background: #000000;
         visibility: visible;
         -webkit-transform: scaleX(0);
         -moz-transform: scaleX(0);
@@ -8347,7 +8347,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       color: #000000 !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
-        color: #3e64ff !important; }
+        color: #6c757d !important; }
     .ftco-navbar-light.scrolled.awake {
       margin-top: 0px;
       -webkit-transition: .3s all ease-out;
@@ -8402,7 +8402,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .1;
     width: 50%;
-    background: #3e64ff; }
+    background:#212529; }
   .hero-wrap .text {
     width: 100%; }
 
@@ -8410,7 +8410,7 @@ h1, h2, h3, h4, h5,
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  color: #3e64ff;
+  color: #6c757d;
   letter-spacing: 4px; }
 
 .slider-text h1 {
@@ -8423,7 +8423,7 @@ h1, h2, h3, h4, h5,
 .slider-text h2 {
   font-weight: 800; }
   .slider-text h2 span {
-    color: #3e64ff;
+    color: #6c757d;
     text-decoration: underline; }
 
 .slider-text p {
@@ -8481,7 +8481,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #edf0ff;
+    background: #e9eaea;
     z-index: -1;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -8500,7 +8500,7 @@ h1, h2, h3, h4, h5,
   -webkit-animation: 1.6s ease infinite wheel-up-down;
   -moz-animation: 1.6s ease infinite wheel-up-down;
   animation: 1.6s ease infinite wheel-up-down;
-  color: #3e64ff;
+  color: #212529;
   font-size: 30px; }
 
 @-webkit-keyframes wheel-up-down {
