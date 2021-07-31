@@ -10,6 +10,7 @@
 
 .product-card {
 	box-shadow: 0 12px 17px rgba(129, 140, 151, 0.1);
+	border: 1px solid #eee;
 }
 .product-card .product-image {
 	width: 30%;
