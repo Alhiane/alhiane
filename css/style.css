@@ -8375,7 +8375,7 @@ h1, h2, h3, h4, h5,
     width: 40px;
     height: 40px;
     content: '';
-    background: #6c757d;
+    background: #fff;
     z-index: -1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -8385,7 +8385,9 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 50%;
     border-radius: 50%; }
   .navbar-brand span {
-    color: #fff; }
+    color: #0c0254;
+    margin-right: 10px;
+}
 
 .hero-wrap {
   width: 100%;
