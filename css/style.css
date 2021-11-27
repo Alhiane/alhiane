@@ -8165,7 +8165,7 @@ h1, h2, h3, h4, h5,
   color: #3e64ff !important; }
 
 .ftco-navbar-light {
-  background: #212529 !important;
+  background: #460b5a !important;
   position: absolute;
   top: 0;
   left: 0;
@@ -8186,8 +8186,8 @@ h1, h2, h3, h4, h5,
     padding: 0; }
   .ftco-navbar-light .navbar-brand {
     color: #fff;
-    padding-top: .7rem;
-    padding-bottom: .7rem; }
+    /*padding-top: .7rem;
+    padding-bottom: .7rem; */}
     .ftco-navbar-light .navbar-brand:hover, .ftco-navbar-light .navbar-brand:focus {
       color: #000000 !important; }
     @media (max-width: 991.98px) {
