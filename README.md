@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-**Alhiane/alhiane** is a ✨ full stack web developper ✨ 
+**Alhiane/alhiane** is a ✨ full stack web developer ✨ 
 
 Here are some ideas to get you started:
 
