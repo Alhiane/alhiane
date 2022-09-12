@@ -7,7 +7,6 @@ Software developer
 * 🌍  I'm based in Morocco
 * 🖥️  See my portfolio at [PORTFOLIO](http://alhiane.com)
 * ✉️  You can contact me at [alhiane.dev@gmail.com](mailto:alhiane.dev@gmail.com)
-* 🚀  I'm currently working on [Affimedia](http://affimedia.nl)
 * 🧠  I'm learning Solidity
 * 🤝  I'm open to collaborating on Blockchain Project
 * ⚡  Youhou
